@@ -91,6 +91,7 @@ body {
   font-size: 18px;
 }
 
+
 .nav-item.active,
 .nav-item:hover {
   color: #b76cff;
@@ -161,6 +162,20 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-align: center; /* Add this */
+}
+.hero h2 {
+  font-size: 2.2rem;
+  line-height: 1.1;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, #c77dff 0%, #7b2cff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center; /* Add this */
+}
+
+.hero h1 .smaller-title {
+  font-size: 0.92em; 
 }
 
 .hero p {
@@ -237,12 +252,20 @@ body {
   align-items: center;
   justify-content: center;
   border: 1px solid rgba(255,255,255,0.1);
+  text-decoration: none;
 }
 
 .socials i:hover {
   color: #b76cff;
   background: rgba(183,108,255,0.1);
   transform: translateY(-5px);
+  text-decoration: none;
+}
+
+.social-icons a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
 }
 
 /* SCROLL DOWN ARROW */
